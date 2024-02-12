@@ -10,8 +10,44 @@
   font-size: 14px;
 }
 
+
 .form-search {
   font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
 }
 
+.header-nav {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header__profile-link {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+
+@media screen and (min-width: 1280px) {
+
+  .header__profile-link {
+    font-size: 20px;
+  }
+
+  .header-nav {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .header-nav {
+    font-size: 15px;
+  }
+
+  .header__profile-link {
+    font-size: 17px;
+  }
+}
